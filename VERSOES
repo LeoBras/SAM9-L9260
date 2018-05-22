@@ -1,0 +1,8 @@
+OLD - Versões Fornecidas pelo Fabricante.
+
+Versão v1.0 Encontram-se instalados: Debian 6, Kernel 2.6.31 com SPI, MySQL, lighttpd, Drupal6.
+
+Versão v2.0 Encontram-se instalados: Debian 6, Kernel 2.6.31 com SPI. (Recomendavel para aplicações independentes de BD.)
+
+Versão v3.0 Encontram-se instalados: Debian 7, Kernel 3.4.9-rt com SPI. (Recomendavel para aplicações que necessitem de tempo-real.)
+

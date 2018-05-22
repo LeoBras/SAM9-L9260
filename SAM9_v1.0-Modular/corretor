@@ -1,0 +1,17 @@
+##COMO USAR ESSE SHELL SCRIPT##
+## Como root rode "chmod +x corretor" e logo depois "./corretor" 
+## Voce precisa rodar esse scipt apenas na primeira vez que o kit iniciar.
+
+chmod -R 777 /tmp/
+chown mysql.root /var/run/mysqld/
+chown -R www-data /var/log/lighttpd/
+chown -R mysql.mysql /var/lib/mysql/
+chown mysql.root /var/lib/mysql/mysql
+chown -R libuuid.libuuid /var/lib/libuuid/
+chown statd /var/lib/nfs
+chown -R ntp.ntp /var/lib/ntp/
+chown /var/www/6226.6226 *
+chown root.root /var/www/info.php /var/www/index.lighttpd.html
+
+#Funciona apenas depois do reboot
+reboot
